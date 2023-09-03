@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
-  <asmv1:assemblyIdentity name="EIDReaderWebWrapper.exe" version="1.0.0.1" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="amd64" type="win32" />
+  <asmv1:assemblyIdentity name="EIDReaderWebWrapper.exe" version="1.0.0.2" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="amd64" type="win32" />
   <application />
   <entryPoint>
     <assemblyIdentity name="EIDReaderWebWrapper" version="1.0.0.0" language="neutral" processorArchitecture="amd64" />
@@ -42,26 +42,26 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="EIDReaderLib.dll" size="8704">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="EIDReaderLib.dll" size="9216">
       <assemblyIdentity name="EIDReaderLib" version="1.0.0.0" language="neutral" processorArchitecture="amd64" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>dOAGXuhmr6sEo7mW0wj3qMY6sZ4PhunyeQloIqicEJY=</dsig:DigestValue>
+        <dsig:DigestValue>bXRci6lSEPDBfzYzG6YnKL+eNSm98bIVObOlZiXOjDw=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="EIDReaderWebWrapper.exe" size="9624">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="EIDReaderWebWrapper.exe" size="9216">
       <assemblyIdentity name="EIDReaderWebWrapper" version="1.0.0.0" language="neutral" processorArchitecture="amd64" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>G6vqWH/tUFKIMBUsjYuiS78OOUTXw4ftxEEUDvMbMRs=</dsig:DigestValue>
+        <dsig:DigestValue>2U54cbUrrDkgfzNxHgHBgW2p4ZdUTl+JhiqSfKwvUeY=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -197,13 +197,13 @@
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="EIDReaderWebWrapper.exe.config" size="532">
+  <file name="EIDReaderWebWrapper.exe.config" size="530">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>MJ+Cc9wJ8ajFcnzf2zUMw14U142gBlXXgb85q9hX3U4=</dsig:DigestValue>
+      <dsig:DigestValue>MtZWppsZvpiuBQUSpND0nr4htve7nFATC36VLqT1I5s=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>

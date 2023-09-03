@@ -14,14 +14,14 @@ WORKDIR /src
 
 # copy and build everything else
 COPY . .
-WORKDIR /src/EIDReaderWebWrapper
+WORKDIR /src
 #RUN dotnet publish -c Release -o out --no-restore
 RUN msbuild /p:Configuration=Release -r:False
 
 FROM mcr.microsoft.com/dotnet/framework/runtime:4.8 AS runtime
 WORKDIR /app
 #COPY --from=build /app/out ./
-COPY --from=build /src/EIDReaderWebWrapper/obj/Release ./
+COPY --from=build /src/EIDReaderWebWrapper/bin/Release ./
 ENTRYPOINT ["EIDReaderWebWrapper.exe"]
 
 

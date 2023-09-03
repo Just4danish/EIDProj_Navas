@@ -15,7 +15,7 @@ namespace EIDReaderWebWrapper
         public static EIDReader objEidReader;
         public static void Main(string[] args)
         {
-            string baseAddress = "http://localhost:9000/";
+            string baseAddress = "http://127.0.0.1:9000/";
             APIServer = WebApp.Start<Startup>(url: baseAddress);
             // Show Info
             Console.WriteLine("Web Server Started at > " + baseAddress);

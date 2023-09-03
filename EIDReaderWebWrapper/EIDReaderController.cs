@@ -27,6 +27,7 @@ namespace EIDReaderWebWrapper
         [Route("ListReaders")]
         public IHttpActionResult ListReaders()
         {
+            Console.WriteLine(DateTime.Now.ToString("HH:mm:ss.fff") + ": Request Recieved: api/EIDReader/ListReaders");
             Program.objEidReader = new EIDReader();
             Program.objEidReader.objData = new EIDData();
             Program.objEidReader.InitReader();
