@@ -201,7 +201,7 @@ namespace EIDReaderLib
             {
                 if (!objData.Status)
                 {
-                    objData.Message = "Read Disconnect error";
+                    objData.Message = "Read Disconnect error, " + ex.Message;
                     objData.Status = false;
                     objData.InitStatus = false;
                     objData.ConnectStatus = false;
